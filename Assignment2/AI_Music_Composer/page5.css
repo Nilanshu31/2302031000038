@@ -1,0 +1,56 @@
+.buttons {
+    margin: 20px 0;
+}
+
+main{
+    padding: 5%;
+}
+
+
+.buttons button {
+    background: #00bfff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.buttons button:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+.buttons .active {
+    background: #00bfff;
+}
+
+
+
+.music-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.music-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+.music-card:hover{
+    background-color: rgb(110, 108, 106);
+}
+
+.music-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
